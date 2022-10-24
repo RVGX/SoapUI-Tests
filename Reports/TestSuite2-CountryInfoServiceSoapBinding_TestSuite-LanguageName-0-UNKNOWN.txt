@@ -1,0 +1,48 @@
+Status: UNKNOWN
+Time Taken: 34
+Size: 359
+Timestamp: Mon Oct 17 16:18:28 CEST 2022
+TestStep: LanguageName
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+Endpoint: http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : ""
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.5 (Java/16.0.1)
+Host : webservices.oorsprong.org
+Accept-Encoding : gzip,deflate
+Content-Length : 312
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://www.oorsprong.org/websamples.countryinfo">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:LanguageName>
+         <web:sISOCode>?</web:sISOCode>
+      </web:LanguageName>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Cache-Control : private, max-age=0
+Server : Microsoft-IIS/8.5
+Vary : Accept-Encoding
+Web-Service : DataFlex 19.1
+#status# : HTTP/1.1 200 OK
+Date : Mon, 17 Oct 2022 14:18:23 GMT
+Content-Type : text/xml; charset=utf-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <m:LanguageNameResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+         <m:LanguageNameResult>Language ISO Code not found!</m:LanguageNameResult>
+      </m:LanguageNameResponse>
+   </soap:Body>
+</soap:Envelope>

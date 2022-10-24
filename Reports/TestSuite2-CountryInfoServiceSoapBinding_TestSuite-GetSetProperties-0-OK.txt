@@ -1,0 +1,8 @@
+Status: OK
+Time Taken: 593
+Size: 0
+Timestamp: Mon Oct 17 16:18:26 CEST 2022
+TestStep: GetSetProperties
+
+----------------- Messages ------------------------------
+Script-result: {Name=com.eviware.soapui.impl.wsdl.support.XmlBeansPropertiesTestPropertyHolder$PropertiesStepProperty@29edba0f, CountryName=com.eviware.soapui.impl.wsdl.support.XmlBeansPropertiesTestPropertyHolder$PropertiesStepProperty@21e4b4d7, CountryISOCode=com.eviware.soapui.impl.wsdl.support.XmlBeansPropertiesTestPropertyHolder$PropertiesStepProperty@25cd7a48}

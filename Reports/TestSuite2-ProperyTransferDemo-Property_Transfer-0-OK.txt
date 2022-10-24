@@ -1,0 +1,18 @@
+Status: OK
+Time Taken: 8
+Size: 0
+Timestamp: Mon Oct 17 16:18:29 CEST 2022
+TestStep: Property Transfer
+
+----------------- Messages ------------------------------
+Performed transfer [CountryCode]
+----------------------------------------------------
+CountryCode transferred [[US]] from [CountryISOCode.Response] to [CapitalCity.Request]
+------------ source path -------------
+declare namespace soap='http://schemas.xmlsoap.org/soap/envelope/';
+declare namespace ns1='http://www.oorsprong.org/websamples.countryinfo';
+//*:CountryISOCodeResult
+------------ target path -------------
+declare namespace soap='http://schemas.xmlsoap.org/soap/envelope/';
+declare namespace ns1='http://www.oorsprong.org/websamples.countryinfo';
+//*:sCountryISOCode
