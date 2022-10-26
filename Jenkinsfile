@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout Code') {
       steps {
-        git(url: 'https://github.com/RVGX/SoapUI-Tests', branch: 'main')
+        git(url: 'https://github.com/RVGX/SoapUI-Tests', branch: 'dev')
       }
     }
 
